@@ -1,8 +1,8 @@
 total = 0
 def Start(i):
-    a = input('Will you go first or second ')
+    a = str(input('Will you go first or second '))
     if i == 'first':
-       Add()  
+       Add(i)  
  
 def Add(i):
     b = input('enter 1 or 2 ')
@@ -11,7 +11,7 @@ def Add(i):
     else:
              return(2 + total)
              
-Add(i)
+Start(i)
 
 
         
