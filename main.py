@@ -1,29 +1,41 @@
+
+
 def Start():
     a = str(input('Will you go first or second '))
     if a == 'first':
-       print('Player 1 starts')  
+      print('Player 1 starts')  
+
 total = 0
-def Add():
-    total = 0
-    b = int(input('enter 1 or 2 '))
+
+def Add(amount):
+    t = 0
+    b = str(input('enter 1 or 2 '))
     if b == '1':
-        total += 1
-        print(total)
+      t += 1
+      print(amount)
     if b == '2':
-        total += 2
-    print(total)
+      t += 2
+    
+    amount += t
+    print(amount)
     print('Player 2 turn')
-    b = int(input('enter 1 or 2 '))
+    b = str(input('enter 1 or 2 '))
     if b == '1':
-        total += 1
-        print(total)
+      t += 1
+      print(amount)
     if b == '2':
-     total += 2
-    print(total)
+      t += 2
+    
+    amount += t
+    print(amount)
     print('Player 1 turn')
+    
+
 Start()
-while total != 20:             
- Add()
+
+while total < 20:   
+
+  Add(total) 
  
  
 if total == 20:
