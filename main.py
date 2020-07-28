@@ -29,4 +29,4 @@ while total != 20:
 if total == 20:
      print('You Win!!!')
 
-        
+
