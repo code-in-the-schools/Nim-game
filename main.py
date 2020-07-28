@@ -24,6 +24,9 @@ def Add():
 Start()
 while total != 20:             
  Add()
-
+ 
+ 
+if total == 20:
+     print('You Win!!!')
 
         
