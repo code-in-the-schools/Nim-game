@@ -10,7 +10,7 @@ def Add():
         total + 1
         print(total)
         if b == '2':
-             return(total.append(2))
+             total + 2
              print(total)
              print('Player 2 turn')
 Start()
